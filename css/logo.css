@@ -1,0 +1,41 @@
+.awesome {
+      line-height: 100%;
+      font-family: futura;
+      font-style: italic;
+      
+      width:100%;
+      
+      margin: 0 auto;
+      text-align: center;
+      
+      color:#313131;
+      font-size:40px;
+      font-weight: bold;
+      position: absolute;
+      -webkit-animation:colorchange 3s infinite alternate;
+      
+      
+    }
+
+    @-webkit-keyframes colorchange {
+      0% {
+        
+        color: gray;
+      }
+      
+      40% {
+        
+        color: black;
+      }
+      
+      60% {
+        
+        color: white;
+      }
+      
+      100% {
+        
+        color: darkblue;
+      }
+      
+    }

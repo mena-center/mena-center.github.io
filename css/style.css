@@ -1,0 +1,27 @@
+body { padding-top: ; }
+
+/*-----------------nav------------------*/
+.navbar{
+border-radius: 0;
+margin-bottom: 0 !important;   
+border-bottom: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.77);
+z-index: 1000;    
+}
+nav .active,nav ul li:hover{
+    border-bottom: 4px solid white;
+}
+nav .dropdown:hover ul{
+    display: block;
+    
+}
+
+li:hover{
+background-color: #080808 !important;
+}
+
+/*-----------------slider------------------*/
+#bootstrap-touch-slider{
+   
+
+}
